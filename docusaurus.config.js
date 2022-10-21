@@ -22,15 +22,31 @@ module.exports = {
     ["docusaurus-plugin-remote-content",
             {
                 // options here
-                name: "remote-content", // used by CLI, must be path safe
-                sourceBaseUrl: "https://raw.githubusercontent.com/hirosystems/stacks-subnets/master", // the base url for the markdown (gets prepended to all of the documents when fetching)
-                outDir: "docs/stacks-subnets-remote", // the base directory to output to.
-                documents: ["PROJECT.md", "README.md","docs/images/subnets-architecture.png", "docs/images/subnet-miners.png"], // the file names to download
+                name: "remote-docs-clarinet", // used by CLI, must be path safe
+                sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/test-clarinet/master/clarinet/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+                outDir: "docs/remote-docs/clarinet", // the base directory to output to.
+                documents: ["faq.md", "getting-started.md","introduction.md", "troubleshooting.md","feature-guides/analyze-with-check-checker.md",
+                "feature-guides/extend-clarinet.md",
+                "how-to-guides/how-to-check-contract.md",
+                "how-to-guides/how-to-create-new-project.md",
+                "how-to-guides/how-to-debug-contract.md",
+                "how-to-guides/how-to-deploy-contracts.md",
+                "how-to-guides/how-to-deploy-with-subnets.md",
+                "how-to-guides/how-to-run-integration-environment.md",
+                "how-to-guides/how-to-set-up-local-development-environment.md",
+                "how-to-guides/how-to-test-contract.md",
+                "how-to-guides/how-to-add-contract.md",
+                 "images/breakpoint.png",      "images/clarinet-faq-2.png",  "images/clarinet.png",
+                 "images/debug-toolbar.png",   "images/run-and-debug.png",
+                 "images/clarinet-banner.bmp", "images/clarinet-faq-3.png",  "images/clarinet101.png", "images/demo.gif",
+                 "images/sidebar.png",  "images/clarinet-dialog.bmp", "images/clarinet-faq-4.png",
+                 "images/costs.gif",  "images/deno-error.png",      "images/trace.png",
+                 "images/clarinet-faq-1.png",  "images/clarinet.ico",  "images/debug-console.png",   "images/lcov.png", "images/watchpoint.png"], // the file names to download
                 // in the plugin's options:
-                noRuntimeDownloads: "true"
+                //noRuntimeDownloads: "true"
                 
             }],
-            
+          
 ],
 
   presets: [
