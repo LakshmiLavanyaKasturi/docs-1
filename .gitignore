@@ -24,3 +24,5 @@ yarn-error.log*
 
 # docs
 src/_data/cli-reference.json
+
+docs/remote-docs

@@ -15,7 +15,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Clarinet',
-      items: [
+      items: [ 
         'remote-docs/clarinet/introduction',
         'remote-docs/clarinet/getting-started',
         {

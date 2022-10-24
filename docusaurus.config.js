@@ -36,6 +36,17 @@ module.exports = {
                 "how-to-guides/how-to-set-up-local-development-environment.md",
                 "how-to-guides/how-to-test-contract.md",
                 "how-to-guides/how-to-add-contract.md",
+                 ], // the file names to download
+                // in the plugin's options:
+                //noRuntimeDownloads: "true"
+                
+            }],["docusaurus-plugin-remote-content",
+            {
+                // options here
+                name: "remote-docs-clarinet-images", // used by CLI, must be path safe
+                sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/test-clarinet/master/clarinet/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+                outDir: "docs/remote-docs/clarinet", // the base directory to output to.
+                documents: [
                  "images/breakpoint.png",      "images/clarinet-faq-2.png",  "images/clarinet.png",
                  "images/debug-toolbar.png",   "images/run-and-debug.png",
                  "images/clarinet-banner.bmp", "images/clarinet-faq-3.png",  "images/clarinet101.png", "images/demo.gif",
@@ -43,11 +54,17 @@ module.exports = {
                  "images/costs.gif",  "images/deno-error.png",      "images/trace.png",
                  "images/clarinet-faq-1.png",  "images/clarinet.ico",  "images/debug-console.png",   "images/lcov.png", "images/watchpoint.png"], // the file names to download
                 // in the plugin's options:
-                //noRuntimeDownloads: "true"
+                //noRuntimeDownloads: "true",
+                responseType: 'arraybuffer',
                 
-            }],
-          
-],
+                headers: {
+                  'accept': 'image*',
+                  'Content-Type': 'image/jpeg',
+                }
+                }
+                
+            ],       
+],    
 
   presets: [
     [
