@@ -38,7 +38,7 @@ module.exports = {
                 "how-to-guides/how-to-add-contract.md",
                  ], // the file names to download
                 // in the plugin's options:
-                //noRuntimeDownloads: "true"
+                // noRuntimeDownloads: "true"
                 
             }],["docusaurus-plugin-remote-content",
             {
@@ -55,7 +55,7 @@ module.exports = {
                  "images/clarinet-faq-1.png",  "images/clarinet.ico",  "images/debug-console.png",   "images/lcov.png", "images/watchpoint.png"], // the file names to download
                 // in the plugin's options:
                 //noRuntimeDownloads: "true",
-                responseType: 'arraybuffer',
+                requestConfig: { responseType: "arraybuffer" },
                 
                 headers: {
                   'accept': 'image*',
