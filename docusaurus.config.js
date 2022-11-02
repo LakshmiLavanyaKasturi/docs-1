@@ -20,27 +20,51 @@ module.exports = {
     require.resolve('docusaurus-plugin-segment'),
     ['./src/_plugins/google-tag-manager', { id: 'GTM-59XXGSG' }],
     ["docusaurus-plugin-remote-content",
-            {
-                // options here
-                name: "remote-docs-clarinet", // used by CLI, must be path safe
-                sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/test-clarinet/master/clarinet/", // the base url for the markdown (gets prepended to all of the documents when fetching)
-                outDir: "docs/clarinet", // the base directory to output to.
-                documents: ["faq.md", "getting-started.md","introduction.md", "troubleshooting.md","feature-guides/analyze-with-check-checker.md",
-                "feature-guides/extend-clarinet.md",
-                "how-to-guides/how-to-check-contract.md",
-                "how-to-guides/how-to-create-new-project.md",
-                "how-to-guides/how-to-debug-contract.md",
-                "how-to-guides/how-to-deploy-contracts.md",
-                "how-to-guides/how-to-deploy-with-subnets.md",
-                "how-to-guides/how-to-run-integration-environment.md",
-                "how-to-guides/how-to-set-up-local-development-environment.md",
-                "how-to-guides/how-to-test-contract.md",
-                "how-to-guides/how-to-add-contract.md",
-                 ], // the file names to download
-                // in the plugin's options:
-                // noRuntimeDownloads: "true"
-                
-            }],["docusaurus-plugin-remote-content",
+      {
+          // options here
+          name: "remote-docs-clarinet", // used by CLI, must be path safe
+          sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/clarinet/docusaurus-approach-1/docs/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+          outDir: "docs/clarinet", // the base directory to output to.
+          documents: ["faq.md", "getting-started.md","introduction.md", "troubleshooting.md",
+            ], // the file names to download
+          // in the plugin's options:
+          // noRuntimeDownloads: "true"
+          
+      }],
+    ["docusaurus-plugin-remote-content",
+      {
+          // options here
+          name: "remote-docs-clarinet-feature-guides", // used by CLI, must be path safe
+          sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/clarinet/docusaurus-approach-1/docs/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+          outDir: "docs/clarinet/feature-guides", // the base directory to output to.
+          documents: ["analyze-with-check-checker.md",
+          "extend-clarinet.md"
+            ], // the file names to download
+          // in the plugin's options:
+          // noRuntimeDownloads: "true"
+          
+      }],
+    ["docusaurus-plugin-remote-content",
+      {
+          // options here
+          name: "remote-docs-clarinet-how-to", // used by CLI, must be path safe
+          sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/clarinet/docusaurus-approach-1/docs/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+          outDir: "docs/clarinet/how-to-guides", // the base directory to output to.
+          documents: ["how-to-check-contract.md",
+          "how-to-create-new-project.md",
+          "how-to-debug-contract.md",
+          "how-to-deploy-contracts.md",
+          "how-to-deploy-with-subnets.md",
+          "how-to-run-integration-environment.md",
+          "how-to-set-up-local-development-environment.md",
+          "how-to-test-contract.md",
+          "how-to-add-contract.md",
+            ], // the file names to download
+          // in the plugin's options:
+          // noRuntimeDownloads: "true"
+          
+      }],
+      ["docusaurus-plugin-remote-content",
             {
                 // options here
                 name: "remote-docs-clarinet-images", // used by CLI, must be path safe
