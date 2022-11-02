@@ -9,7 +9,7 @@ Clarinet supports the [Debug Adapter Protocol](https://microsoft.github.io/debug
 To set up a debug session, you will first need to create a `launch.json` file to tell VS Code what you want to debug.
 The easiest way to accomplish this is to let VS Code generate the template for you by opening the "Run and Debug" view and clicking "create a launch.json file".
 
-![Run and Debug View](../images/run-and-debug.png)
+![Run and Debug View](../../clarinet/images/run-and-debug.png)
 
 This will create the file `.vscode/launch.json` with the default template:
 
@@ -36,24 +36,24 @@ Depending on your needs, you will want to set the `name` field to whatever makes
 Execution begins paused at the first expression. The debug toolbar includes buttons to continue, 
 step over, step into, step out, restart, and stop, in that order.
 
-![debug toolbar](../images/debug-toolbar.png)
+![debug toolbar](../../clarinet/images/debug-toolbar.png)
 
 Breakpoints can be set by clicking in the left gutter next to the code or using the right-click menu at a specific code location.
 
-![breakpoint](../images/breakpoint.png)
+![breakpoint](../../clarinet/images/breakpoint.png)
 
 Data watchpoints may also be set, by clicking the "+" in the Watch section of the Debug sidebar and typing the contract variable to watch in the format `<principal>.<contract>.<name>`, or using the shortcut for a local contract, `.<contract>.<name>`. When a watchpoint is set on a contract variable, execution will pause when its value will change.
 
-![watchpoint](../images/watchpoint.png)
+![watchpoint](../../clarinet/images/watchpoint.png)
 
 During execution, the values of the current contract's variables, the current function's arguments, and any local variables (i.e. from a `let` expression) are shown in the sidebar. The current watchpoints are also shown with their current values. In both cases, the contents of a map are not shown but can be queried in the Debug Console. The call stack is also updated to show the call stack of the current execution.
 
-![view of the sidebar, showing variables, watchpoints, and call stack](../images/sidebar.png)
+![view of the sidebar, showing variables, watchpoints, and call stack](../../clarinet/images/sidebar.png)
 
 At any point during execution, an expression can be evaluated in the current context via the Debug Console. 
 Simply type any valid Clarity expression and hit enter to evaluate it. Upon completion, the events emitted and the return value are printed to the debug console.
 
-![debug console](../images/debug-console.png)
+![debug console](../../clarinet/images/debug-console.png)
 
 For more information on how to debug your smart contract using the VS Code Extension, please see the [How To Debug Smart Contracts In Clarinet's VS Code Extension](https://www.youtube.com/watch?v=DsLCDQSijwk) video walkthrough.
 
@@ -108,6 +108,6 @@ When you are in the console (`clarinet console`), the `::trace <expr>` command e
 This trace shows all function calls, both internal calls to private functions and contract calls to other contracts. 
 For each call, the parameters and return value are shown in the trace. Any events that are emitted are also shown in the trace.
 
-![execution trace](../images/trace.png)
+![execution trace](../../clarinet/images/trace.png)
 
 

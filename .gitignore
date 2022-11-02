@@ -26,3 +26,4 @@ yarn-error.log*
 src/_data/cli-reference.json
 
 docs/remote-docs
+docs/clarinet

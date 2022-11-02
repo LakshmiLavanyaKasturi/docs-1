@@ -20,7 +20,7 @@ Within these tests, developers can simulate mining a block containing transactio
 >
 > If you see an error in Visual Studio Code (VS Code) on the imports in the generated test file(s), that says, "An import path cannot end with a '.ts' extension" (example below), installing the [Deno extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno) will resolve this error.
 
-![VS Code deno error](../images/deno-error.png)
+![VS Code deno error](../../clarinet/images/deno-error.png)
 
 ## Measure and increase code coverage
 
@@ -38,7 +38,7 @@ $ genhtml coverage.lcov
 $ open index.html
 ```
 
-![lcov](../images/lcov.png)
+![lcov](../../clarinet/images/lcov.png)
 
 ## Cost optimization
 
@@ -50,7 +50,7 @@ $ clarinet test --cost
 
 The `--cost` option can be used in conjunction with `--watch` and filters to maximize productivity, as illustrated here:
 
-![costs](../images//costs.gif)
+![costs](../../clarinet/images/costs.gif)
 
 ## Load contracts in a console
 

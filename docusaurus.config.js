@@ -24,7 +24,7 @@ module.exports = {
                 // options here
                 name: "remote-docs-clarinet", // used by CLI, must be path safe
                 sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/test-clarinet/master/clarinet/", // the base url for the markdown (gets prepended to all of the documents when fetching)
-                outDir: "docs/remote-docs/clarinet", // the base directory to output to.
+                outDir: "docs/clarinet", // the base directory to output to.
                 documents: ["faq.md", "getting-started.md","introduction.md", "troubleshooting.md","feature-guides/analyze-with-check-checker.md",
                 "feature-guides/extend-clarinet.md",
                 "how-to-guides/how-to-check-contract.md",
@@ -45,7 +45,7 @@ module.exports = {
                 // options here
                 name: "remote-docs-clarinet-images", // used by CLI, must be path safe
                 sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/test-clarinet/master/clarinet/", // the base url for the markdown (gets prepended to all of the documents when fetching)
-                outDir: "docs/remote-docs/clarinet", // the base directory to output to.
+                outDir: "docs/clarinet", // the base directory to output to.
                 documents: [
                  "images/breakpoint.png",      "images/clarinet-faq-2.png",  "images/clarinet.png",
                  "images/debug-toolbar.png",   "images/run-and-debug.png",
