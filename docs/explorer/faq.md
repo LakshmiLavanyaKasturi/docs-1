@@ -20,13 +20,13 @@ Also, adding more functionality to the extension will be helpful so that eventua
 
 Below are some screenshots to help with this:
 
-![FAQ - 2](images/clarinet-faq-1.png)
+![FAQ - 2](../clarinet/images/clarinet-faq-1.png)
 
-![FAQ - 2](images/clarinet-faq-2.png)
+![FAQ - 2](../clarinet/images/clarinet-faq-2.png)
 
-![FAQ - 2](images/clarinet-faq-3.png)
+![FAQ - 2](../clarinet/images/clarinet-faq-3.png)
 
-![FAQ - 2](images/clarinet-faq-4.png)
+![FAQ - 2](../clarinet/images/clarinet-faq-4.png)
 
 #### **The command `clarinet integrate` is not working. How can I fix it?**
 
