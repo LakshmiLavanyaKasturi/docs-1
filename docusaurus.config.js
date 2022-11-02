@@ -23,7 +23,7 @@ module.exports = {
             {
                 // options here
                 name: "remote-docs-clarinet", // used by CLI, must be path safe
-                sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/test-clarinet/master/clarinet/", // the base url for the markdown (gets prepended to all of the documents when fetching)
+                sourceBaseUrl: "https://raw.githubusercontent.com/LakshmiLavanyaKasturi/clarinet/approach-2/", // the base url for the markdown (gets prepended to all of the documents when fetching)
                 outDir: "docs/clarinet", // the base directory to output to.
                 documents: ["faq.md", "getting-started.md","introduction.md", "troubleshooting.md","feature-guides/analyze-with-check-checker.md",
                 "feature-guides/extend-clarinet.md",
