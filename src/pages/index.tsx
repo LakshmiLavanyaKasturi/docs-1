@@ -7,6 +7,7 @@ import styles from "./index.module.css";
 import HomepageBanner from "../components/HomepageBanner";
 import HomepageFeatures from "../components/HomepageFeatures";
 
+
 export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -15,8 +16,9 @@ export default function Home(): JSX.Element {
       description="Easily write Clarity smart contracts, build apps, and use developer tools for Stacks"
     >
       <main>
-        <HomepageBanner />
+        { <HomepageBanner />}
         <HomepageFeatures />
+      
       </main>
     </Layout>
   );
