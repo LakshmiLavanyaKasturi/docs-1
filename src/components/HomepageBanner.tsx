@@ -4,8 +4,6 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './HomepageBanner.module.css';
 
 
-
-
 function GetStarted(): JSX.Element {
 
 
