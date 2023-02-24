@@ -17,8 +17,8 @@ function GetStarted(): JSX.Element {
   );
 }
 
-const links=[<li><a href='/smart-contracts/clarinet'>Setup local development environment</a></li>, 
-<li><a href='/clarinet/how-to-guides/how-to-add-contract'>Setup local development environment</a></li>, 
+const links=[<li><a href='/clarinet/how-to-guides/how-to-set-up-local-development-environment'>Setup local development environment</a></li>, 
+<li><a href='/clarinet/how-to-guides/how-to-add-contract'>Add contracts</a></li>, 
 <li><a href='/clarinet/how-to-guides/how-to-test-contract'>Test Contracts</a></li>, 
 ]
 
@@ -34,9 +34,8 @@ export default function HomepageBanner(): JSX.Element {
               sources={{
                 light: useBaseUrl('/img/landing_page_web3.png'),
                 dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
-              }}
+              }} 
             />
-            
           </div>
           <div className="col margin-bottom--lg">
               <h3>Get Started</h3>
@@ -53,13 +52,22 @@ export default function HomepageBanner(): JSX.Element {
               alt="web3"
               className={styles.featureSvg}
               sources={{
-                light: useBaseUrl('/img/landing_page_web3.png'),
+                light: useBaseUrl('/img/web3api.png'),
                 dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
               }}
             />
             
           </div>
-          <div className="col margin-bottom--lg">
+          <div className="col">
+            <ThemedImage
+              alt="web3"
+              className={styles.featureSvg}
+              sources={{
+                light: useBaseUrl('/img/sbtc.png'),
+                dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
+              }}
+            />
+              <div className="col margin-bottom--lg">
               <h3>Get Started</h3>
               <div className="row">
                 <h4>Test something with basic header</h4>
@@ -67,7 +75,19 @@ export default function HomepageBanner(): JSX.Element {
                 <ul>{links}</ul>
               </div>
             </div>
-            <div className="col margin-bottom--lg">
+            
+          </div>
+          <div className="col">
+            <ThemedImage
+              alt="web3"
+              className={styles.featureSvg}
+              
+              sources={{
+                light: useBaseUrl('/img/tiles.png'),
+                dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
+              }}
+            />
+              <div className="col margin-bottom--lg">
               <h3>Get Started</h3>
               <div className="row">
                 <h4>Test something with basic header</h4>
@@ -75,6 +95,11 @@ export default function HomepageBanner(): JSX.Element {
                 <ul>{links}</ul>
               </div>
             </div>
+            
+          </div>
+
+          
+            
         </div>
       </div>
     </section>
