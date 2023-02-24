@@ -18,7 +18,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Setup development environment',
+    title: 'Getting started',
     image: '/img/setup-dev-env.svg',
     description: (
       <>
