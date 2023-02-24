@@ -9,13 +9,18 @@ function GetStarted(): JSX.Element {
 
   return (
     <div className="row">
-     <h3>Get Started</h3>
-     <p>Test content</p>
-     <a href="/clarinet/introduction">Clarinet</a>{' '}
-     <br></br>
+      <h3>Get Started</h3>
+      <p>Test content</p>
+      <a href="/clarinet/introduction">Clarinet</a>{' '}
+      <br></br>
     </div>
   );
 }
+
+const links=[<li><a href='/smart-contracts/clarinet'>Setup local development environment</a></li>, 
+<li><a href='/clarinet/how-to-guides/how-to-add-contract'>Setup local development environment</a></li>, 
+<li><a href='/clarinet/how-to-guides/how-to-test-contract'>Test Contracts</a></li>, 
+]
 
 export default function HomepageBanner(): JSX.Element {
   return (
@@ -23,16 +28,53 @@ export default function HomepageBanner(): JSX.Element {
       <div className="container padding-horiz--lg">
         <div className="row">
           <div className="col">
-          <ThemedImage
-            alt="web3"
-            className={styles.featureSvg}
-            sources={{
-              light: useBaseUrl('/img/landing_page_web3.png'),
-              dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
-            }}
-          />
-          <div className="col col">{GetStarted()}</div>
+            <ThemedImage
+              alt="web3"
+              className={styles.featureSvg}
+              sources={{
+                light: useBaseUrl('/img/landing_page_web3.png'),
+                dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
+              }}
+            />
+            
           </div>
+          <div className="col margin-bottom--lg">
+              <h3>Get Started</h3>
+              <div className="row">
+                <h4>Test something with basic header</h4>
+
+                <ul>{links}</ul>
+              </div>
+            </div>
+        </div>
+        <div className="row">
+          <div className="col">
+            <ThemedImage
+              alt="web3"
+              className={styles.featureSvg}
+              sources={{
+                light: useBaseUrl('/img/landing_page_web3.png'),
+                dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
+              }}
+            />
+            
+          </div>
+          <div className="col margin-bottom--lg">
+              <h3>Get Started</h3>
+              <div className="row">
+                <h4>Test something with basic header</h4>
+
+                <ul>{links}</ul>
+              </div>
+            </div>
+            <div className="col margin-bottom--lg">
+              <h3>Get Started</h3>
+              <div className="row">
+                <h4>Test something with basic header</h4>
+
+                <ul>{links}</ul>
+              </div>
+            </div>
         </div>
       </div>
     </section>
