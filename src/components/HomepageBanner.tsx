@@ -2,7 +2,7 @@ import React from 'react';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './HomepageBanner.module.css';
-
+import Explorer from './explorer'
 
 function GetStarted(): JSX.Element {
 
@@ -155,6 +155,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
 
         </div>
+       <div> <Explorer /></div>
       </div>
     </section>
   );
