@@ -1,12 +1,8 @@
+
 import React from 'react';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './HomepageBanner.module.css';
-
-
-
-
-
 
 export default function HomepageBanner(): JSX.Element {
   return (
@@ -15,18 +11,18 @@ export default function HomepageBanner(): JSX.Element {
       <div className="row">
 
             <div className="col margin-bottom--lg">
-            <a href="/stacks-blockchain-api/introduction">Explorer</a>{' '}
+            <a href="//clarinet/introduction">Clarinet</a>{' '}
               <div className="row">
-                <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts</h4>
+                <h4>Clarinet is a command line tool for Clarity smart contract development that provides a CLI package with a clarity runtime, a console, and a testing harness.</h4>
             </div>
           </div>
       </div>
         <div className="row">
           <div className="col">
             <div className="col margin-bottom--lg">
-            <a href="/stacks-blockchain-api/introduction">Getting Started</a>{' '}
+            <a href="clarinet/getting-started">Getting Started</a>{' '}
               <div className="row">
-                <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts</h4>
+                <h4>Get started to install and build with Clarinet</h4>
 
               </div>
             </div>
@@ -34,9 +30,9 @@ export default function HomepageBanner(): JSX.Element {
           <div className="col">
     
               <div className="col margin-bottom--lg">
-              <a href="/clarinet/introduction">Feature Guides</a>{' '}
+              <a href="/clarinet/feature-guides/analyze-with-check-checker">Feature Guides</a>{' '}
               <div className="row">
-                <h4>Clarinet is a command line tool for Clarity smart contract development.</h4>
+                <h4>Explore the features of Clarinet</h4>
               </div>
             </div>
             
@@ -44,9 +40,9 @@ export default function HomepageBanner(): JSX.Element {
           <div className="col">
            
               <div className="col margin-bottom--lg">
-              <a href="/stacks.js/introduction">TroubleShooting</a>{' '}
+              <a href="/stacks.js/introduction">Troubleshooting</a>{' '}
               <div className="row">
-                <h4>Stacks.js is an SDK with a collection of JavaScript libraries to interact with and transact on Stacks blockchain.</h4>
+                <h4>Explore our troubleshooting guide to unblock youself </h4>
               </div>
             </div>
             

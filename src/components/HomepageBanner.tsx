@@ -2,7 +2,8 @@ import React from 'react';
 import ThemedImage from '@theme/ThemedImage';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './HomepageBanner.module.css';
-import Explorer from './explorer'
+import StacksBlockchainAPI from './stacksblockchainapi';
+import Clarinet from './clarinet';
 
 function GetStarted(): JSX.Element {
 
@@ -102,60 +103,9 @@ export default function HomepageBanner(): JSX.Element {
           </div>
 
         </div>
-        <div className="row">
-          <div className="col">
-            <ThemedImage
-              alt="web3"
-              className={styles.featureSvg}
-              sources={{
-                light: useBaseUrl('/img/web3api.png'),
-                dark: useBaseUrl('/img/tiles.png' ?? '/img/tiles.png'),
-              }}
-            />
-            
-          </div>
-          <div className="col">
-            <ThemedImage
-              alt="web3"
-              className={styles.featureSvg}
-              sources={{
-                light: useBaseUrl('/img/sbtc.png'),
-                dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
-              }}
-            />
-              <div className="col margin-bottom--lg">
-              <h3>Get Started</h3>
-              <div className="row">
-                <h4>Test something with basic header</h4>
-
-                <ul>{links}</ul>
-              </div>
-            </div>
-            
-          </div>
-          <div className="col">
-            <ThemedImage
-              alt="web3"
-              className={styles.featureSvg}
-              
-              sources={{
-                light: useBaseUrl('/img/tiles.png'),
-                dark: useBaseUrl('/img/landing_page_web3.png' ?? '/img/landing_page_web3.png'),
-              }}
-            />
-              <div className="col margin-bottom--lg">
-              <h3>Get Started</h3>
-              <div className="row">
-                <h4>Test something with basic header</h4>
-
-                <ul>{links}</ul>
-              </div>
-            </div>
-            
-          </div>
-
-        </div>
-       <div> <Explorer /></div>
+        <div> <Clarinet /></div>
+       <div> <StacksBlockchainAPI /></div>
+      
       </div>
     </section>
   );
