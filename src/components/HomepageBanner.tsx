@@ -19,8 +19,8 @@ function GetStarted(): JSX.Element {
 }
 
 const links=[<li><a href='/clarinet/how-to-guides/how-to-set-up-local-development-environment'>Setup local development environment</a></li>, 
+<li><a href='https://hirosystems.github.io/stacks-blockchain-api/client/'>Stacks Blockchain API Client</a></li>,
 <li><a href='/clarinet/how-to-guides/how-to-add-contract'>Creating a new project</a></li>, 
-<li><a href='/clarinet/how-to-guides/how-to-test-contract'>Stacks.js starter kits</a></li>, 
 ]
 
 export default function HomepageBanner(): JSX.Element {
@@ -39,9 +39,9 @@ export default function HomepageBanner(): JSX.Element {
             />
           </div>
           <div className="col margin-bottom--lg">
-              <h3>Get Started</h3>
+              <h3>Quickstart</h3>
               <div className="row">
-                <h4>Test something with basic header</h4>
+                <h4>Get started with our  </h4>
 
                 <ul>{links}</ul>
               </div>
