@@ -11,6 +11,7 @@ export default function HomepageBanner(): JSX.Element {
       <div className="row">
 
             <div className="col margin-bottom--lg">
+            <img className="clarinet-style" src='/img/clarinet_icon.png'/>
             <a href="//clarinet/introduction">Clarinet</a>{' '}
               <div className="row">
                 <h4>Clarinet is a command line tool for Clarity smart contract development that provides a CLI package with a clarity runtime, a console, and a testing harness.</h4>
@@ -19,7 +20,7 @@ export default function HomepageBanner(): JSX.Element {
       </div>
         <div className="row">
           <div className="col">
-            <div className="col margin-bottom--lg">
+            <div className="col-margin-bottom--lg">
             <a href="clarinet/getting-started">Getting Started</a>{' '}
               <div className="row">
                 <h4>Get started to install and build with Clarinet</h4>
@@ -29,7 +30,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
           <div className="col">
     
-              <div className="col margin-bottom--lg">
+              <div className="col-margin-bottom--lg">
               <a href="/clarinet/feature-guides/analyze-with-check-checker">Feature Guides</a>{' '}
               <div className="row">
                 <h4>Explore the features of Clarinet</h4>
@@ -39,7 +40,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
           <div className="col">
            
-              <div className="col margin-bottom--lg">
+              <div className="col-margin-bottom--lg">
               <a href="/stacks.js/introduction">Troubleshooting</a>{' '}
               <div className="row">
                 <h4>Explore our troubleshooting guide to unblock youself </h4>

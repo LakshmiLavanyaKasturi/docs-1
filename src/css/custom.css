@@ -64,6 +64,27 @@
   --aa-primary-color-rgb: var(--ifm-color-primary-lighter);
 }
 
+/* SEARCH PLUGIN =================================================================== */
+
+/* fix for duplicate padding, after search bar update */
+.navbar__items div[class^='searchBox_'] {
+  padding-top: 0;
+  padding-bottom: 0;
+  min-width: 128px; /* reduces layout shift by late search box loading */
+  
+}
+
+.dsla-search-wrapper {
+  --aa-primary-color-rgb: 235, 86, 12 !important;
+  --aa-input-background-color-rgb: 245, 245, 247 !important;
+}
+
+[data-theme='dark'] .dsla-search-wrapper {
+  --aa-input-background-color-rgb: 36, 37, 38 !important;
+  --aa-muted-color-rgb: 136, 139, 145 !important;
+}
+
+
 [data-theme='dark'] {
   /* --ifm-color-primary: #ff5500; */ /* Contrast isn't great */
   --ifm-color-primary-dark: #e64d00;
@@ -101,6 +122,34 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.clarinet-style {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  margin: 4px;
+}
+
+.stacks-style {
+  width: 40px;
+  height: 40px;
+  padding: 4px;
+  margin: 4px;
+}
+.font-style-quickstart {
+  font-size:63px;
+}
+.font-style-quickstarts {
+  font-size:25px;
+}
+.primary-links {
+  font-size: 25px;
+}
+.col-margin-bottom--lg {
+
+  background: #2A2726;
+  border-radius: 8px;
 }
 
 .header-github-link:hover {
@@ -148,24 +197,7 @@ table {
   margin-left: 18px;
 }
 
-/* SEARCH PLUGIN =================================================================== */
 
-/* fix for duplicate padding, after search bar update */
-.navbar__items div[class^='searchBox_'] {
-  padding-top: 0;
-  padding-bottom: 0;
-  min-width: 128px; /* reduces layout shift by late search box loading */
-}
-
-.dsla-search-wrapper {
-  --aa-primary-color-rgb: 235, 86, 12 !important;
-  --aa-input-background-color-rgb: 245, 245, 247 !important;
-}
-
-[data-theme='dark'] .dsla-search-wrapper {
-  --aa-input-background-color-rgb: 36, 37, 38 !important;
-  --aa-muted-color-rgb: 136, 139, 145 !important;
-}
 
 .aa-DetachedOverlay {
   --aa-input-border-color-rgb: 136, 139, 145 !important;

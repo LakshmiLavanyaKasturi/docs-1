@@ -8,19 +8,18 @@ import Clarinet from './clarinet';
 function GetStarted(): JSX.Element {
 
 
-  return (
-    <div className="row">
+  return (   <div className="row">
       <h3>Get Started</h3>
-      <p>Test content</p>
+      <p>Test content</p> 
       <a href="/clarinet/introduction">Clarinet</a>{' '}
       <br></br>
     </div>
   );
 }
 
-const links=[<li><a href='/clarinet/how-to-guides/how-to-set-up-local-development-environment'>Setup local development environment</a></li>, 
-<li><a href='https://hirosystems.github.io/stacks-blockchain-api/client/'>Stacks Blockchain API Client</a></li>,
-<li><a href='/clarinet/how-to-guides/how-to-add-contract'>Creating a new project</a></li>, 
+const links=[<li><a className ="primary-links" href='/clarinet/how-to-guides/how-to-set-up-local-development-environment'>Hiro Platform</a></li>, 
+<li><a className ="primary-links" href='https://hirosystems.github.io/stacks-blockchain-api/client/'>Stacks Blockchain API Client</a></li>,
+<li><a className ="primary-links" href='/clarinet/how-to-guides/how-to-add-contract'>Creating a new project</a></li>, 
 ]
 
 export default function HomepageBanner(): JSX.Element {
@@ -31,6 +30,8 @@ export default function HomepageBanner(): JSX.Element {
           <div className="col">
             <ThemedImage
               alt="web3"
+              width="690px"
+              height="263px"
               className={styles.featureSvg}
               sources={{
                 light: useBaseUrl('/img/landing_page_web3.png'),
@@ -39,9 +40,9 @@ export default function HomepageBanner(): JSX.Element {
             />
           </div>
           <div className="col margin-bottom--lg">
-              <h3>Quickstart</h3>
+              <h3 className='font-style-quickstart'>Quickstart</h3>
               <div className="row">
-                <h4>Get started with our  </h4>
+                <h3 className='font-style-quickstarts'>Get started using with our following quickstarts.</h3>
 
                 <ul>{links}</ul>
               </div>
@@ -49,6 +50,7 @@ export default function HomepageBanner(): JSX.Element {
         </div>
         <div className="row">
           <div className="col">
+            <a href ="/stacks-blockchain-api/overview">
             <ThemedImage
               alt="web3"
               className={styles.featureSvg}
@@ -57,9 +59,9 @@ export default function HomepageBanner(): JSX.Element {
                 dark: useBaseUrl('/img/web3api.png' ?? '/img/web3api.png'),
               }}
             />
-            
+            </a>
             <div className="col margin-bottom--lg">
-            <a href="/stacks-blockchain-api/introduction">Stacks Blockchain API?</a>{' '}
+              <a href="/stacks-blockchain-api/overview">Stacks Blockchain API?</a>{' '}
               <div className="row">
                 <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts</h4>
 
