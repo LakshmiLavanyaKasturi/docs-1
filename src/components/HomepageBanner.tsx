@@ -17,9 +17,9 @@ function GetStarted(): JSX.Element {
   );
 }
 
-const links=[<li><a className ="primary-links" href='/clarinet/how-to-guides/how-to-set-up-local-development-environment'>Hiro Platform</a></li>, 
+const links=[<li><a className ="primary-links" href='https://platform.dev.hiro.so'>Hiro Platform</a></li>, 
 <li><a className ="primary-links" href='https://hirosystems.github.io/stacks-blockchain-api/client/'>Stacks Blockchain API Client</a></li>,
-<li><a className ="primary-links" href='/clarinet/how-to-guides/how-to-add-contract'>Creating a new project</a></li>, 
+<li><a className ="primary-links" href='/stacksjs-starters'>Stacks.js starters</a></li>, 
 ]
 
 export default function HomepageBanner(): JSX.Element {

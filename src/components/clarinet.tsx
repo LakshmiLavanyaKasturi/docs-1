@@ -20,7 +20,7 @@ export default function HomepageBanner(): JSX.Element {
       </div>
         <div className="row">
           <div className="col">
-            <div className="clarinet-icon-getting-started">
+            <div className="product-subnavs">
             <a href="clarinet/getting-started">Getting Started</a>{' '}
               <div className="row">
                 <h4>Get started to install and build with Clarinet</h4>
@@ -30,7 +30,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
           <div className="col">
     
-              <div className="clarinet-icon-feature-guides">
+              <div className="product-subnavs">
               <a href="/clarinet/feature-guides/analyze-with-check-checker">Feature Guides</a>{' '}
               <div className="row">
                 <h4>Explore the features of Clarinet</h4>
@@ -40,7 +40,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
           <div className="col">
            
-              <div className="clarinet-icon-troubleshooting">
+              <div className="product-subnavs">
               <a href="/stacks.js/introduction">Troubleshooting</a>{' '}
               <div className="row">
                 <h4>Explore our troubleshooting guide to unblock youself </h4>

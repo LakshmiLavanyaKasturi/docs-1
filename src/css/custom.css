@@ -146,7 +146,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .primary-links {
   font-size: 22px;
 }
-.col-margin-bottom--lg {
+.product-subnavs {
 
   background: #2A2726;
   border-radius: 8px;
@@ -171,27 +171,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .clarinet-icon {
   font-size: 30px;
 }
-.clarinet-icon-getting-started {
-  font-size: 22px;
-}
-.clarinet-icon-feature-guides {
-  font-size: 22px;
-}
-.clarinet-icon-troubleshooting {
+.product-subnavs {
   font-size: 22px;
 }
 
 .api-icon {
   font-size: 30px;
-}
-.api-icon-getting-started {
-  font-size: 22px;
-}
-.api-icon-feature-guides {
-  font-size: 22px;
-}
-.api-icon-troubleshooting {
-  font-size: 22px;
 }
 
 .header-github-link::before {
