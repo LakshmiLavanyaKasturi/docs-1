@@ -14,7 +14,7 @@ export default function HomepageBanner(): JSX.Element {
       <div className="container padding-horiz--lg">
       <div className="row">
 
-            <div className="col margin-bottom--lg">
+            <div className="api-icon">
             <img className="stacks-style" src = "/img/stacks-blockchain-api.png"/>
             <a href="/stacks-blockchain-api/introduction">Stacks Blockchain API</a>{' '}
               <div className="row">
@@ -24,7 +24,7 @@ export default function HomepageBanner(): JSX.Element {
       </div>
         <div className="row">
           <div className="col">
-            <div className="col-margin-bottom--lg">
+            <div className="api-icon-getting-started">
             <a href="/stacks-blockchain-api/introduction">Getting Started</a>{' '}
               <div className="row">
                 <h4>Get started interacting with the blockchain </h4>
@@ -34,7 +34,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
           <div className="col">
     
-            <div className="col-margin-bottom--lg">
+            <div className="api-icon-feature-guides">
               <a href="/stacks-blockchain-api/feature-guides/microblocks">Feature Guides</a>{' '}
               <div className="row">
                 <h4>Explore Stacks Blockchain API features</h4>
@@ -44,7 +44,7 @@ export default function HomepageBanner(): JSX.Element {
           </div>
           <div className="col">
            
-            <div className="col-margin-bottom--lg">
+            <div className="api-icon-troubleshooting">
               <a href="/stacks.js/introduction">TroubleShooting</a>{' '}
               <div className="row">
                 <h4>Explore our troubleshooting guide to unblock youself</h4>

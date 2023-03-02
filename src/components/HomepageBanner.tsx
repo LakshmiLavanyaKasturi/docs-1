@@ -60,7 +60,7 @@ export default function HomepageBanner(): JSX.Element {
               }}
             />
             </a>
-            <div className="col margin-bottom--lg">
+            <div className="api-overview">
               <a href="/stacks-blockchain-api/overview">Stacks Blockchain API?</a>{' '}
               <div className="row">
                 <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts</h4>
@@ -77,10 +77,10 @@ export default function HomepageBanner(): JSX.Element {
                 dark: useBaseUrl('/img/sbtc.png' ?? '/img/sbtc.png'),
               }}
             />
-              <div className="col margin-bottom--lg">
+              <div className="clarinet-overview">
               <a href="/clarinet/introduction">What is Clarinet?</a>{' '}
               <div className="row">
-                <h4>Clarinet is a command line tool for Clarity smart contract development.</h4>
+                <h4>Clarinet is a command line tool for Clarity smart contract development</h4>
               </div>
             </div>
             
@@ -95,7 +95,7 @@ export default function HomepageBanner(): JSX.Element {
                 dark: useBaseUrl('/img/tiles.png' ?? '/img/tiles.png'),
               }}
             />
-              <div className="col margin-bottom--lg">
+              <div className="stacksjs-overview">
               <a href="/stacks.js/introduction">Stacks.js</a>{' '}
               <div className="row">
                 <h4>Stacks.js is an SDK with a collection of JavaScript libraries to interact with and transact on Stacks blockchain.</h4>

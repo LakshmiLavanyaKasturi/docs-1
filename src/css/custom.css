@@ -125,7 +125,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .clarinet-style {
-  width: 40px;
+  width: px;
   height: 40px;
   padding: 4px;
   margin: 4px;
@@ -138,13 +138,13 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   margin: 4px;
 }
 .font-style-quickstart {
-  font-size:63px;
+  font-size:50px;
 }
 .font-style-quickstarts {
-  font-size:25px;
+  font-size:22px;
 }
 .primary-links {
-  font-size: 25px;
+  font-size: 22px;
 }
 .col-margin-bottom--lg {
 
@@ -154,6 +154,44 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .header-github-link:hover {
   opacity: 0.6;
+}
+
+.clarinet-overview {
+  font-size: 25px;
+}
+
+.api-overview {
+  font-size: 25px;
+}
+
+.stacksjs-overview {
+  font-size: 25px;
+}
+
+.clarinet-icon {
+  font-size: 30px;
+}
+.clarinet-icon-getting-started {
+  font-size: 22px;
+}
+.clarinet-icon-feature-guides {
+  font-size: 22px;
+}
+.clarinet-icon-troubleshooting {
+  font-size: 22px;
+}
+
+.api-icon {
+  font-size: 30px;
+}
+.api-icon-getting-started {
+  font-size: 22px;
+}
+.api-icon-feature-guides {
+  font-size: 22px;
+}
+.api-icon-troubleshooting {
+  font-size: 22px;
 }
 
 .header-github-link::before {
