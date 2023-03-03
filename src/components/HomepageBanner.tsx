@@ -42,7 +42,7 @@ export default function HomepageBanner(): JSX.Element {
           <div className="col margin-bottom--lg">
               <h3 className='font-style-quickstart'>Quickstart</h3>
               <div className="row">
-                <h3 className='font-style-quickstarts'>Get started using with our following quickstarts.</h3>
+                <h3 className='font-style-quickstarts'>Get started with the following quickstarts to set up and use Hiro's products</h3>
 
                 <ul>{links}</ul>
               </div>
@@ -63,7 +63,7 @@ export default function HomepageBanner(): JSX.Element {
             <div className="api-overview">
               <a href="/stacks-blockchain-api/overview">Stacks Blockchain API?</a>{' '}
               <div className="row">
-                <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts</h4>
+                <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts.</h4>
 
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function HomepageBanner(): JSX.Element {
               <div className="clarinet-overview">
               <a href="/clarinet/introduction">What is Clarinet?</a>{' '}
               <div className="row">
-                <h4>Clarinet is a command line tool for Clarity smart contract development</h4>
+                <h4>Clarinet is a command line tool for Clarity smart contract development.</h4>
               </div>
             </div>
             
@@ -96,9 +96,9 @@ export default function HomepageBanner(): JSX.Element {
               }}
             />
               <div className="stacksjs-overview">
-              <a href="/stacks.js/introduction">Stacks.js</a>{' '}
+              <a href="/stacks.js/overview">Stacks.js</a>{' '}
               <div className="row">
-                <h4>Stacks.js is an SDK with a collection of JavaScript libraries to interact with and transact on Stacks blockchain.</h4>
+                <h4>Stacks.js is an SDK with a collection of JavaScript libraries to interact with and transact on the Stacks blockchain.</h4>
               </div>
             </div>
             
