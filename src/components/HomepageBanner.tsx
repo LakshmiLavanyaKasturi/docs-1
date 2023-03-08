@@ -42,7 +42,7 @@ export default function HomepageBanner(): JSX.Element {
           <div className="col margin-bottom--lg">
               <h3 className='font-style-quickstart'>Quickstart</h3>
               <div className="row">
-                <h3 className='font-style-quickstarts'>Get started with the following quickstarts to set up and use Hiro's products</h3>
+                <h3 className='font-style-quickstarts'>Get started with the following quickstarts to set up and use Hiro's products.</h3>
 
                 <ul>{links}</ul>
               </div>
@@ -61,7 +61,7 @@ export default function HomepageBanner(): JSX.Element {
             />
             </a>
             <div className="api-overview">
-              <a href="/stacks-blockchain-api/overview">Stacks Blockchain API?</a>{' '}
+              <a href="/stacks-blockchain-api/overview">Stacks Blockchain API</a>{' '}
               <div className="row">
                 <h4>Stacks blockchain API allows you to query the Stacks blockchain and interact with smart contracts.</h4>
 
