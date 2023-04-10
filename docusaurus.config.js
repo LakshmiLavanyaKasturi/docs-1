@@ -238,9 +238,16 @@ module.exports = {
   ],
 
   presets: [
+    // [
+    //   '@docusaurus/preset-classic',
+    //   /** @type {import('@docusaurus/preset-classic').Options} */
+    //   {
+        
+    //   },
+    // ],
     [
-      '@docusaurus/preset-classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      "docusaurus-preset-openapi",
+      /** @type {import('docusaurus-preset-openapi').Options} */
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
@@ -267,22 +274,27 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      },
-    ],
-    [
-      'redocusaurus',
-      {
-        specs: [
-          {
-            route: '/api/',
-            spec: 'https://raw.githubusercontent.com/hirosystems/stacks-blockchain-api/gh-pages/openapi.resolved.yaml',
-          },
-        ],
-        theme: {
-          primaryColor: '#FF5500',
+        api: {
+          path: "./openapi.json",
+          routeBasePath: "/api",
         },
+        
       },
     ],
+    // [
+    //   'redocusaurus',
+    //   {
+    //     specs: [
+    //       {
+    //         route: '/api/',
+    //         spec: 'https://raw.githubusercontent.com/hirosystems/stacks-blockchain-api/gh-pages/openapi.resolved.yaml',
+    //       },
+    //     ],
+    //     theme: {
+    //       primaryColor: '#FF5500',
+    //     },
+    //   },
+    // ],
   ],
 
   themeConfig:
